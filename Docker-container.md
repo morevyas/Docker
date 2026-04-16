@@ -31,7 +31,7 @@ This separation ensures that containers do not interfere with one another, even 
 <p>Portability is one of Docker’s biggest advantages. Since container images are self-contained, they can be easily shared and deployed across different environments—from development to testing to production.</p>
 <p>This enables the “build once, run anywhere” approach and minimizes compatibility issues.</p>
 <h2 id="docker-container-life-cycle">Docker container life-cycle</h2>
-<p>There are five essential phases in the Docker container lifecycle:</p>
+<p><strong>Docker container lifecycle:</strong></p>
 <ul>
 <li>Created</li>
 <li>Started</li>
