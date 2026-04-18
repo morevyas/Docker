@@ -40,4 +40,7 @@ This separation ensures that containers do not interfere with one another, even 
 <li>Dead</li>
 </ul>
 <p><img src="https://www.tutorialspoint.com/docker/images/docker_containers_1.jpg" alt="Docker Containers 1"></p>
+<h3 id="list-all-docker-container">List all docker container</h3>
+<pre><code>docker ps
+</code></pre>
 
