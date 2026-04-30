@@ -41,7 +41,6 @@ This separation ensures that containers do not interfere with one another, even 
 </ul>
 <p><img src="https://www.tutorialspoint.com/docker/images/docker_containers_1.jpg" alt="Docker Containers 1"></p>
 <h3 id="list-all-docker-container">List all docker container</h3>
-<p>show the all running docker services.</p>
 <pre><code>docker ps.
 </code></pre>
 
