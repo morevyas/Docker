@@ -9,6 +9,14 @@
 <p>While images can live on your local machine, that quickly becomes limiting if you want to collaborate or deploy across multiple environments. That’s where an <strong>image registry</strong> comes in.</p>
 <p>While you’re working with registries, you might hear the terms  <em>registry</em>  and  <em>repository</em>  as if they’re interchangeable. Even though they’re related, they’re not quite the same thing.</p>
 <p>A  <em>registry</em>  is a centralized location that stores and manages container images, whereas a  <em>repository</em>  is a collection of related container images within a registry. Think of it as a folder where you organize your images based on projects. Each repository contains one or more container images.</p>
+<p>Docker Registry is a basic open-source project that many other registries, such as Docker Hub, are based on. It is a simple way to host your very own private registry.</p>
+<ul>
+<li><strong>Simplicity</strong>  − Deploy and configure easily.</li>
+<li><strong>Customization</strong>  − Highly customizable through its configuration files.</li>
+<li><strong>Scalability</strong>  − Can scale horizontally using a distributed storage backend.</li>
+<li><strong>Security</strong>  − It provides means for TLS-encrypted communications and basic authentication.</li>
+<li><strong>Extensible</strong>  − Additional functionalities can be added through middleware</li>
+</ul>
 <p>An image registry is a centralized service that stores and distributes container images. It allows developers to push images to a shared location and pull them from anywhere, making collaboration and deployment much easier. Registries can be:</p>
 <ul>
 <li><strong>Public</strong> – accessible to anyone (e.g., Docker Hub)</li>
