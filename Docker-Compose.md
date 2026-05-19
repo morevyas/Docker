@@ -6,7 +6,9 @@
 <h1 id="docker-compose">Docker-Compose</h1>
 <p><strong>Docker Compose solves the problem of managing multi-container applications by letting you describe the entire setup in a single <code>docker-compose.yml</code> file.</strong></p>
 <p>Docker Compose introduces several essential concepts that are necessary to understand and be able to use the tool effectively. These consist of the architecture of a Docker Compose file written in YAML, services, networks, volumes, and environment variables. Lets discuss each of these concepts.</p>
-<p>Key ideas from the passage:</p>
+<p>Docker Compose makes it easy to manage multi-container applications directly from the command line using the <code>docker compose</code> command and its related subcommands. If you have Docker Desktop installed, Docker Compose is already included, so there’s no extra setup required.</p>
+<p>With these commands, you can control the full lifecycle of your application based on the configuration in your <code>compose.yaml</code> file. This includes starting services, stopping them, rebuilding containers, and adjusting configurations—all from a single, streamlined interface.<br>
+Key ideas from the passage:</p>
 <ul>
 <li><strong>One container = one responsibility</strong>
 <ul>
